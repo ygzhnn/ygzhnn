@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="stylesheetsfile.css">
+    
+    <link rel="stylesheet" href="mystyles.css">
+    <style>
+        * {
+            color: green;
+            background-color: lightgray;
+        }
+
+        .declinethrough {
+            text-decoration: line-through;
+        }
+
+        .decunderline {
+            text-decoration: underline;
+        }
+
+        .decoverline {
+            text-decoration: overline;
+        }
+
+        .bgcolor {
+            background-color: blueviolet;
+        }
+    </style>
+
+
+    <title>
+        CSS basics
+    </title>
+</head>
+
+<body>
+    <header>
+        <h2>CSS basics</h2>
+    </header>
+    <nav>Nav Menu
+        <ul>
+            <li><a href="#inlinecss"> Inline CSS </a></li>
+            <li><a href="#internalcss"> Internal CSS </a></li>
+            <li><a href="#externalcss"> External CSS </a></li>
+        </ul>
+    </nav>
+    <br>
+    <!-- <div>Div Menu
+        <ul>
+            <li><a href="#inlinecss"> Inline CSS </a></li>
+            <li><a href="#internalcss"> Internal CSS </a></li>
+            <li><a href="#externalcss"> External CSS </a></li>
+        </ul>
+    </div> -->
+    <article>
+        <section>
+            <h2 id="inlinecss">Inline CSS</h2>
+            <p class="main">In this section we use <strong>Inline CSS</strong>
+                <br>
+                All the styles are applied by setting <em style="color: red; font-weight: bold;">style attrributes</em>
+                of the elements
+                <br>
+                <br>
+                Decoration examples: <span style="text-decoration: underline;">line through</span>, <span
+                    style="text-decoration:underline;">overline</span>,
+                <span style="text-decoration: line-through;">underline</span>
+            </p>
+        </section>
+        <section>
+            <h2 id="internalcss">Internal CSS</h2>
+            <p>In this section we use <strong>Internal CSS</strong></p>
+            <br>
+            All the styles are defined in <em style="color: red; font-weight: bold;">the head</em> of the HTML document
+            Decoration examples: <span class="declinethrough bgcolor">line through</span>, <span
+                class="decoverline bgcolor">overline</span>,
+            <span class="decunderline bgcolor">underline</span>
+            <p class="decunderline bgcolor" style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Itaque, aut.</p>
+        </section>
+        <section>
+            <h2 id="externalcss">External CSS</h2>
+            <p class="redclass">In this section we use <strong>External CSS</strong></p>
+            <br>
+            All the styles are specified in <em style="color: red; font-weight: bold;">a separate file</em> with .css
+            extension
+            Decoration examples: <span class="extdeclinethrough">line through</span>, <span
+                class="extdecoverline">overline</span>,
+            <span class="extdecunderline">underline</span>
+            <div style="border: 1px solid blue; background-color: aqua;">
+                <h2 class="example">Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <div style="border: 1px solid blue; background-color: aqua;">
+                <h2 class="separatedtblr">Lorem ipsum dolor sit amet.</h2>
+            </div>
+        </section>
+        <section>
+            <p id="paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsum, aliquid culpa tempore animi consequatur eligendi non maiores odio reprehenderit laudantium sequi quia ad est! Pariatur ducimus excepturi odio corporis fuga explicabo voluptatibus aut rem maiores modi porro cum, eveniet soluta mollitia, earum nam optio quos est animi cumque impedit, aliquid velit sequi. Inventore, doloribus qui nesciunt modi quae tenetur corrupti neque aperiam fugit dolorum nostrum ipsa ratione autem aliquam cumque minus facilis explicabo tempora! Nisi, optio! Iusto explicabo facilis ratione dolores doloremque. Impedit nulla, odit eum earum aliquam voluptatibus vitae, repellendus obcaecati hic tenetur excepturi quisquam a dignissimos, modi optio similique aperiam voluptate illum. Provident hic, totam sequi quasi distinctio odit cum quae et inventore consequuntur maxime repellendus voluptatem nihil tempora. Asperiores sequi expedita sint animi sapiente, laborum tempore dolore magnam quod et soluta modi quas praesentium odit provident ipsa rem magni quasi tenetur distinctio nihil maiores explicabo adipisci! Inventore nostrum harum labore nam voluptas, illo architecto amet odit numquam magni tempore perferendis praesentium ex minima veritatis! Optio assumenda voluptates sit. Aperiam consectetur saepe sint ea nesciunt vero obcaecati fugiat enim? Veniam ducimus, laboriosam porro excepturi, debitis asperiores rerum reprehenderit omnis, nulla sed expedita molestias non. Aut sequi molestiae doloribus odit, exercitationem iste delectus magni deleniti, sapiente sunt animi iusto expedita, tempore aliquam beatae aspernatur dolorum quibusdam sint suscipit ratione asperiores ad? Consequatur, aliquam, impedit ab pariatur explicabo inventore quia eveniet, illum accusamus quas officiis nobis. Similique, ab iusto nisi cupiditate provident cumque laborum eius, dolorem non hic omnis aliquam ipsum ipsam laboriosam minima corporis debitis ratione perspiciatis neque? Non voluptas unde inventore, ut eius nam repudiandae tenetur incidunt id dicta, obcaecati ullam vero, hic dolorem iusto voluptate fugiat soluta quibusdam aut delectus nulla qui ea alias natus? Optio voluptas quasi voluptate at sit voluptatibus accusantium hic aspernatur enim?</p>
+        </section>
+    </article>
+</body>
+
+</html>

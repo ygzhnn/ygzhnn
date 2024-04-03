@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="external.css">
+    <style>
+        body {
+            color: black;
+            background-color: lightsalmon;
+        }
+
+        .declinethrough {
+            text-decoration: line-through;
+        }
+
+        .decunderline {
+            text-decoration: underline;
+        }
+
+        .decoverline {
+            text-decoration: overline;
+        }
+
+        .bgcolor {
+            background-color: blueviolet;
+        }
+    </style>
+
+    <title>CSS Web Page</title>
+</head>
+<body>
+
+    <h1>15/03/2024</h1>
+    <nav>Design Your Webpage with CSS
+        <ul>
+            <li><a href="#casc"> Cascading Style Sheets </a></li>
+            <li><a href="#hyp"> HyperText Markup Language </a></li>
+            <li><a href="#javasc"> Javascript </a></li>
+        </ul>
+    </nav>
+
+    <h1 id = "casc"> Cascading Style Sheet </h1>
+    <p class="main">In this section <strong>Useing the style parameter iside HTML tags</strong>
+                <br>
+
+                It is used by adding a style parameter to the HTML tag.We have seen examples of inline css in many of our previous lessons.
+                <br>
+                <br>
+                Example of test drawing: <span style="text-decoration: overline;" >line through</span>, <span
+                    style="text-decoration:underline;">overline</span>,
+                <span style="text-decoration: line-through;">underline</span>
+            </p>
+
+    <h1 id = "hyp"> HyperTest Markup Language </h1>
+    <p>In this section we use <strong>Internal CSS</strong></p>
+            <br>
+            All the styles are defined in <em style="color: red; font-weight: bold;">the head</em> of the HTML document
+            Decoration examples: <span class="declinethrough bgcolor">line through</span>, <span
+                class="decoverline bgcolor">overline</span>,
+            <span class="decunderline bgcolor">underline</span>
+            <p class="decunderline bgcolor" style="background-color: blue;">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Itaque, aut.</p>
+            <p class="decunderline bgcolor" style="background-color: cyan;">It is a style language used to make
+            html structures flexible, visually beatiful-looking structures. Html is a language that details how objects will look like</p>
+
+    <h1 id = "javasc"> Javascript </h1>
+    <p>In this section we use <strong>Javascript text with External CSS</strong></p>
+    <br>
+
+    <p>All style of the web page are set in a separate css file.</p>
+    <section>
+        <div style="border: 1px solid red; background-color: gray;">
+            <h2 class="example">Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <div style="border: 1px solid red; background-color: gray;">
+            <h2 class="separatedtblr">Lorem ipsum dolor sit amet.</h2>
+        </div>
+    </section>
+</body>
+</html>

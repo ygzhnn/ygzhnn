@@ -1,0 +1,38 @@
+.redclass {
+    color: red;
+    background-color: blue;
+}
+
+.extdeclinethrough {
+    text-decoration: line-through;
+}
+
+.extdecunderline {
+    text-decoration: underline;
+}
+
+.extdecoverline {
+    text-decoration: overline;
+}
+
+.example {
+    margin: 50px;
+    border: 20px solid black;
+    padding: 50px;
+}
+
+.separatedtblr {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 75px;
+    margin-right: 100px;
+    border-width: 20px;
+    border-color: black;
+    border-style: dashed;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#paragraph1{
+    background-color: yellow;
+}
